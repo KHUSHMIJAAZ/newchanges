@@ -1,0 +1,56 @@
+
+body {
+	background-image: url("daniele-levis-pelusi-mkMSXR86kYY-unsplash.png");
+	background-size: 1300px;
+	text-align: center;
+}
+
+.main {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+}
+
+.container {
+ 	display: grid;
+	justify-items: center;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;	
+	row-gap: 15px;
+	font-family: 'Noto Sans JP', sans-serif; 
+}
+
+img {
+	height: 200px;
+	width: 200px;
+	border: 3px outset #000000;
+}
+
+.title {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+form {
+	text-align: center;
+}
+
+form input[type=submit] {
+	margin-top: 15px;
+	background-color:#FFFFFF;
+  	border: none;
+  	color: black;
+  	padding: 10px 15px;
+  	text-decoration: none;
+  	cursor: pointer;
+  	border: 1px outset black;
+  	font-family: 'DM Mono', monospace;
+  	font-size: 15px;
+}
+
+form input[type=submit]:hover {
+	border: 1px outset #ffd166;
+	background-color:#C0C0C0;
+}
